@@ -1,0 +1,185 @@
+
+.fon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+
+.block_buttons_number {
+    width: 320px;
+    height: 220px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    background-color: #000080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.buttons_number {
+    text-align: center;
+}
+
+
+.number {
+    padding-top: 30px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    height: 70px;
+    width: 270px;
+    color: #f30606;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.numberCounter {
+    padding-top: 30px;
+    background-color: #2C75FF;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    height: 70px;
+    width: 270px;
+    color: #7FFF00;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 270px;
+    height: 50px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    background-color:#2C75FF;
+}
+
+
+.button_inc {
+    background-color:#ffffff;
+    border-radius: 5px;
+    width: 55px;
+    height: 35px;
+
+}
+
+.button_inc_red {
+    background-color: #a90505;
+    border-radius: 5px;
+    width: 55px;
+    height: 35px;
+    color: white;
+}
+
+.button_reset {
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 55px;
+    height: 35px;
+}
+
+.button_reset_blue {
+    background-color: #3131ee;
+    border-radius: 5px;
+    width: 55px;
+    height: 35px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.input_text {
+    border: solid 2px;
+    width: 268px;
+    height: 200px;
+    border-radius: 5px;
+    vertical-align: middle;
+    padding: 10px;
+    background-color: #000080;
+    border: 2px solid #ffffff;
+}
+
+.input_block {
+    border: solid 2px;
+    height: 126px;
+    margin-bottom: 15px;
+    background-color: #2C75FF
+}
+
+.input_Max {
+    margin-top: 7px;
+    height: 30px;
+    padding-left: 10px;
+    width: 160px;
+    border-radius: 6px;
+    margin-right: 5px;
+}
+
+.input_Min {
+    margin-top: 6px;
+    height: 30px;
+    padding-left: 10px;
+    width: 160px;
+    border-radius: 6px;
+    margin-right: 5px;
+}
+
+.input_numberError {
+    background-color: #a90505;
+    margin-top: 6px;
+    height: 30px;
+    padding-left: 10px;
+    width: 160px;
+    border-radius: 3px;
+    margin-right: 5px;
+    color: whitesmoke;
+}
+
+.input_text_one {
+    display: flex;
+    text-align: center;
+    margin-bottom: 29px;
+}
+
+.text {
+    margin-right: 15px;
+}
+
+.input_text_two {
+    display: flex;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.block_button_set {
+    border: solid 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    background-color: #2C75FF
+}
+
+.button_set {
+    margin: 0 auto;
+    display: flex;
+    padding: 7px 25px 7px 25px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+
