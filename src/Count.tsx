@@ -9,12 +9,12 @@ type CountPropsType = {
 }
 
 const Count = (props: CountPropsType) => {
+
     return (
         props.status
             ?
             props.minValue < 0 || props.maxValue <= props.minValue
                 ?
-
                 <h1 className={s.number}>
                     not correct !!!
                 </h1>
@@ -33,7 +33,20 @@ const Count = (props: CountPropsType) => {
                     {props.count}
                 </h1>
     )
-};
-
+}
 export default Count;
 
+// return (
+//      <>
+//          {props.status && (
+//              <h1 className={props.count === props.maxValue ? `${s.number}` : `${s.numberCounter}`}>
+//                  {props.minValue < 0 || props.maxValue <= props.minValue ? not correct !!! : `${props.text}`}
+//              </h1>
+//          )}
+//          {!props.status && (
+//              <h1 className={props.count === props.maxValue ? `${s.number}` : `${s.numberCounter}`}>
+//                  {props.minValue < 0 || props.maxValue <= props.minValue ?  not correct !!! : `${props.count}`}
+//              </h1>
+//          )}
+//      </>
+//  )

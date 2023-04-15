@@ -7,7 +7,6 @@ type MinInputPropsType = {
     inputMinCallback: (minValue: string) => void
     minValue: number
     maxValue: number
-
 }
 
 const MinInput: React.FC<MinInputPropsType> = (
@@ -15,16 +14,12 @@ const MinInput: React.FC<MinInputPropsType> = (
         inputMinCallback,
         minValue,
         maxValue,
-
     }
 ) => {
-
 
     const onChangeHandler = (event: ChangeEvent<HTMLInputElement>) => {
         inputMinCallback(event.currentTarget.value)
     }
-
-
 
     return (
 
